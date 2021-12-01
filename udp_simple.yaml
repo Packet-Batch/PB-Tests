@@ -16,10 +16,10 @@ sequences:
     # Ethernet header options.
     #eth:
       # Source MAC address (don't include to automatically retrieve the MAC address of 'interface').
-      #smac: ""
+      #srcmac: ""
 
       # Destination MAC address (don't include to automatically retrieve the MAC address of the default gateway).
-      #dmac: ""
+      #dstmac: ""
 
     # Additional IP options.
     ip:
