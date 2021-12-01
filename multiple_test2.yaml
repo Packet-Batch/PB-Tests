@@ -8,8 +8,8 @@ sequences:
     delay: 0
     threads: 1
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       srcip: "10.50.0.3"
       dstip: "10.50.0.4"
@@ -27,8 +27,8 @@ sequences:
     delay: 0
     threads: 1
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       srcip: "10.50.0.3"
       dstip: "10.50.0.4"
@@ -46,8 +46,8 @@ sequences:
     delay: 0
     threads: 1
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       srcip: "10.50.0.3"
       dstip: "10.50.0.4"
@@ -65,8 +65,8 @@ sequences:
     delay: 0
     threads: 1
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       srcip: "10.50.0.3"
       dstip: "10.50.0.4"
@@ -84,8 +84,8 @@ sequences:
     delay: 0
     threads: 1
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       srcip: "10.50.0.3"
       dstip: "10.50.0.4"
@@ -102,8 +102,8 @@ sequences:
     delay: 0
     threads: 2
     eth:
-      smac: "1a:c4:df:70:d8:a6"
-      dmac: "ae:21:14:4b:3a:6d"
+      srcmac: "1a:c4:df:70:d8:a6"
+      dstmac: "ae:21:14:4b:3a:6d"
     ip:
       ranges:
         - 192.168.90.0/24
