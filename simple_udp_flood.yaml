@@ -7,8 +7,8 @@ sequences:
         time: 60
 
         eth:
-            smac: "1a:c4:df:70:d8:a6"
-            dmac: "ae:21:14:4b:3a:6d"
+            srcmac: "1a:c4:df:70:d8:a6"
+            dstmac: "ae:21:14:4b:3a:6d"
 
         ip:
             protocol: udp
@@ -33,4 +33,5 @@ sequences:
                 min: 61000
                 max: 61000
                 # Only generate one payload and use it repeatedly. This increases performance A LOT (went from 10 - 20 gbps to 50 - 60 gbps).
-                static: true
+              
+            isstatic: true
